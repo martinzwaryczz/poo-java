@@ -60,20 +60,4 @@
 
 1. FizzBuzz: Imprimir por pantalla los números del 1 al 100 pero considerando lo siguiente: a) Si el número es divisible por 3 se debe imprimir "Fizz". b) Si el número es divisible por 5 se debe imprimir "Buzz". c) Si el número es divisible por 3 y por 5 se debe imprimir "FizzBuzz"
 
-1. Se tiene una tabla o planilla con los resultados de la última llamada a examen de una materia, con la siguiente información:
-    * Matricula (valor numérico entero de 8 dígitos)
-    * Nota (valor numérico entero de 2 dígitos entre 1 y 10)
-    * Nombre (valor alfanumérico de 10 caracteres)
-    * Se pide informar:
-      1. Cantidad de alumnos que se presentaron a rendir examen
-      1. Nota promedio
-      1. Nombre y nota del alumno que obtuvo el mejor resultado (será único)
-    * Para indicar el fin del ingreso de datos el operador ingresará un registro nulo con matrícula =0, nota=0 y nombre=""
 
-1. Escribir una función que reciba un arreglo de enteros y devuelva true si el arreglo está ordenado de mayor a menor y false  si está desordenado
-
-1. Escribir una función que reciba un arreglo de enteros y devuelva la suma de los elementos que se encuentran en posiciones pares (incluido el elemento de la posición 0). Por ejemplo:  Dado el arreglo [1, 2, 13 ,4, 8, 6] => devuelve 22 (1+13+8)
-  
-1. Implementar la función: **busquedaSecuencial(int [] arreglo, int valorBuscado)** que recibe un arreglo de enteros y un valor a buscar, y devuelve la posición del valor buscado, o -1 si el valor no se encuentra
-
-1. Implementar la función: **busquedaBinaria(int [] arreglo, int valorBuscado)** que recibe un arreglo de enteros y un valor a buscar, y devuelve la posición del valor buscado, o -1 si el valor no se encuentra
